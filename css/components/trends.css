@@ -1,0 +1,26 @@
+.trends__row1,
+.trends__row2 {
+    display: flex;
+}
+
+.trends__patio {
+    background-color: #e3e5e4;
+}
+
+.trends__title {
+    width: 247px;
+    height: 106px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #749d26;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+
+.trends__btn {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--green);
+    font-family: "Poppins";
+}
