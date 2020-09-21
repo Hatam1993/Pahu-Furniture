@@ -1,0 +1,25 @@
+.choose {
+    background-color: #181817;
+    padding-top: 90px;
+    text-align: center;
+}
+
+.choose_head {}
+
+.choose_title {
+    font-family: 'Poppins';
+    text-align: center;
+    color: #ffce76;
+    font-size: 40px;
+    letter-spacing: 4px;
+    line-height: 19px;
+    color: #ffce76;
+    font-weight: 600;
+    margin: 0;
+    position: relative;
+}
+.choose_line{
+
+}
+
+.choose__chair {}
