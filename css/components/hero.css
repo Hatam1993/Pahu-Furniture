@@ -1,0 +1,27 @@
+.hero {
+    height: calc(100vh - 68px);
+    background: url(/images/back.jpeg) center no-repeat;
+    background-size: cover;
+    padding: 134px 0 0 98px;
+    font-family: var(--redHat);
+    font-style: normal;
+    box-sizing: border-box;
+}
+.hero__content {
+    padding-top: 140px;
+    width: 700px;
+    color: White;
+}
+.hero__suptitle {
+    margin: 0 0 14px 0;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    color: orange;
+}
+.hero__title {
+   color: white;
+   font-size: 70PX;
+   margin: 0;
+   margin-bottom: 100px;
+}

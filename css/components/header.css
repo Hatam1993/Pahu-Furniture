@@ -1,0 +1,46 @@
+
+ .icon1 {
+     width: 10;
+ }
+ .icon2 {
+     width: 10;
+ }
+ .icon3 {
+     width: 10;
+ }
+ .header {
+    padding-top: 30px;
+    width: 100%;
+    z-index: 4;
+    background-color: black;
+ }
+ .header__row {
+    display: flex;
+    align-items: center;
+}
+.nav__menu {
+    display: flex;
+    padding: 0;
+}
+.nav__item {
+    list-style-type:none;
+    margin-left: 46px;                          
+}
+.nav__link {
+    color: white;
+    text-decoration: none;
+    }
+    .social {
+        display: flex;
+    }
+    .social__item {
+        list-style:none;
+        margin-left: 25px;
+    }
+    .block {
+        width: 100px;
+        height: 100px;
+        padding: 100px;
+        box-sizing: border-box;
+    }
+   
