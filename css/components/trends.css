@@ -3,9 +3,27 @@
     display: flex;
 }
 
+.trends__img1,
+.trends__img2,
+.trends__img3,
+.trends__img4,
+.trends__img5 {
+    position: absolute;
+    max-width: 100%;
+}
+
+.trends__img1 {
+    
+}
+
+.trends__img3 {
+
+}
+
 .trends__patio,
 .trends__design,
 .trends__ceramics {
+    position: relative;
     width: 247px;
     height: 106px;
     font-size: 30px;
@@ -16,23 +34,45 @@
 
 .trends__patio {
     color:#749d26;
-    
+    margin-left: 95px;
+    margin-top: 80px;
 }
 
 .trends__design {
-    color: #599ba7
+    color: #599ba7;
+    margin-left: 50px;
+    padding-top: 50px;
 }
 
 .trends__ceramics {
     color: #352b30;
+    margin-left: 50px;
+    padding-top: 50px;
 }
 
-.trends__btn {
+.trends__btn1,
+.trends__btn2,
+.trends__btn3 {
+    position: relative;
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
     color: var(--green);
     font-family: "Poppins";
+}
+
+.trends__btn1 {
+    color:#749d26;
+    padding-top: 40px;
+}
+
+.trends__btn2 {
+    color: #599ba7;
+    margin-left: 50px;
+}
+
+.trends__btn3 {
+    color: #352b30;
 }
 
 .trends__column {
