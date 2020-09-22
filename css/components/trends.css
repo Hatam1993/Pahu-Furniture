@@ -24,3 +24,7 @@
     color: var(--green);
     font-family: "Poppins";
 }
+
+.trends__column {
+    height: 670px;
+}
