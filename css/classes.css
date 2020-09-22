@@ -30,12 +30,11 @@ img {
 .container {
     max-width: 1170px;
     margin: auto;
-
 }
 .flex {
     display: flex;
 
-}.text-center {
+}
+.text-center {
     text-align: center;
 }
-
