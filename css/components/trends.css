@@ -3,18 +3,27 @@
     display: flex;
 }
 
-.trends__patio {
-    background-color: #e3e5e4;
-}
-
-.trends__title {
+.trends__patio,
+.trends__design,
+.trends__ceramics {
     width: 247px;
     height: 106px;
     font-size: 30px;
     letter-spacing: 3px;
-    color: #749d26;
     font-weight: 600;
     font-family: "Poppins";
+}
+
+.trends__patio {
+    color: var(--green);
+}
+
+.trends__design {
+    color: var(--lightBlue)
+}
+
+.trends__ceramics {
+    color: var(--brown);
 }
 
 .trends__btn {
