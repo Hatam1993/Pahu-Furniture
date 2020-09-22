@@ -15,15 +15,16 @@
 }
 
 .trends__patio {
-    color: var(--green);
+    color:#749d26;
+    
 }
 
 .trends__design {
-    color: var(--lightBlue)
+    color: #599ba7
 }
 
 .trends__ceramics {
-    color: var(--brown);
+    color: #352b30;
 }
 
 .trends__btn {
