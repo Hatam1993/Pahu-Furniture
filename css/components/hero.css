@@ -2,7 +2,6 @@
     height: calc(100vh - 68px);
     background: url(/images/back1.png) center no-repeat;
     background-size: cover;
-    padding: 134px 0 0 98px;
     font-family: var(--redHat);
     font-style: normal;
     box-sizing: border-box;
@@ -10,15 +9,37 @@
     z-index: 1;
     
 }
+.black-opacity{    
+    background: url(/images/header_op_rectangles.png) center no-repeat;
+    background-size: cover;
+}
+.plenka{
+    background: black;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    
+}
 .hero__content {
     padding-top: 140px;
     width: 700px;
     color: White;
 }
+.hero__suptitle::before {
+    position: absolute;
+    content: " ";
+    width: 65px;
+    height: 5px;
+    background-color: yellow;
+    top: 0;
+    left: -50px;
+}
 .hero__suptitle {
     z-index: 1;
     position: relative;
     margin: 0 0 14px 86px;
+    position: relative;
+    margin: 0 0 14px 0;
     font-weight: 500;
     font-size: 22px;
     line-height: 30px;
@@ -44,3 +65,4 @@
     top: 12px;
 
 }
+
