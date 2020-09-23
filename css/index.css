@@ -4,3 +4,5 @@
 @import './fonts.css';
 @import'./components/choose.css';
 @import "./components/trends.css";
+@import './components/header.css';
+@import './components/hero.css';
