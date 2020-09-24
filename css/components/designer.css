@@ -1,9 +1,11 @@
 .designer {
+    position: absolute;
     height: 980px;
-    width: auto;
+    width: 100%;
     background: url(../../images/designer-bg.png);
 }
 .designer__title {
+    position: relative;
     font-size: 40px;
     letter-spacing: 4px;
     line-height: 19px;
@@ -11,17 +13,30 @@
     font-weight: 600;
     font-family: "Poppins";
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .designer__img {
-    position: absolute;
+    box-sizing: border-box;
    
 }
 
 .designer__name {   
+    position: relative;
     font-size: 30px;
     letter-spacing: 2px;
     color: #fafafa;
     font-weight: 600;
     font-family: "Poppins";
+}
+
+.designer__name::after {
+    align-items: flex-end;
+    position: absolute;
+    content: " ";
+    width: 175px;
+    height: 3px;
+    background-color: #ffce76;
+    top: 20px;
+   margin-left: 15px;
 }
