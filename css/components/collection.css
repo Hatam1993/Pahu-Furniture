@@ -1,0 +1,104 @@
+.collection {
+    background-color: #f9fafc;
+    width: 100%;
+    height: 1600px;
+}
+
+.collection_title {
+    font-size: 40px;
+    letter-spacing: 4px;
+    line-height: 19px;
+    color: #181817;
+    font-weight: 600;
+    font-family: "Poppins";
+    padding-top: 102px;
+    text-align: center;
+    margin: 0;
+    position: relative;
+}
+
+.collection_img {
+    padding: 0 12 0 12px;
+    background-color: #f9fafc;
+    text-align: center;
+
+}
+
+.collection_title::before {
+    content: "";
+    background-color:#181817;
+    width: 230px;
+    height: 1px;
+    position: absolute;
+    bottom: -32px;
+    left: 340px;
+
+}
+
+.collection_title::after {
+    content: "";
+    background-color: black;
+    width: 230px;
+    height: 1px;
+    position: absolute;
+    bottom: -32px;
+    right: 340px;
+}
+
+.collections_cols {
+    margin-top: 76px;
+}
+.chairs{
+    width: 100%;
+    background-color: white;
+  
+}
+.chair__item {
+margin-top: auto;
+padding:  0 0 0 25px;
+
+}
+
+.chairs_title {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0 0 19px 0;
+
+}
+
+.chairs_desctipon {
+    font-size: 14px;
+    color: #6d6d6d;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0 0 34px 0;
+
+}
+
+.chair_price {
+    font-size: 27px;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Poppins";
+    margin: 0;
+
+}
+.chairs_img{
+    max-height: 185px;
+    display: block;
+    margin: auto;
+}
+.chairs:hover .chairs-yellow   {
+    background-color: #ffce76;
+    transform: scale(1.1);
+    cursor: pointer;
+    opacity: 0.5;
+    
+}
+.chairs:hover .chairs_img{
+    background-color: #ffce76;
+}
