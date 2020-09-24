@@ -4,6 +4,7 @@
     background: url(../../images/designer-bg.png);
 }
 .designer__title {
+    position: relative;
     font-size: 40px;
     letter-spacing: 4px;
     line-height: 19px;
@@ -14,11 +15,12 @@
 }
 
 .designer__img {
-    position: absolute;
+
    
 }
 
 .designer__name {   
+    position: relative;
     font-size: 30px;
     letter-spacing: 2px;
     color: #fafafa;
