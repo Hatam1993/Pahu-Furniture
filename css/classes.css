@@ -33,10 +33,18 @@ img {
 }
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 .text-center {
     text-align: center;
-}
+
+ 
+    .box{
+        box-sizing: border-box;
+        padding: 15px;
+        width: ;
+    }
+    
 
 .relative {
     position: relative;

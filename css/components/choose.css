@@ -2,13 +2,13 @@
     background-color: #181817;
     padding-top: 90px;
     text-align: center;
-    height: 1000px;
 }
 
 .column {
     max-width: 460px;
     margin: auto;
     margin-top: 22px;
+    text-align: center;
 }
 
 .choose_title {
@@ -28,6 +28,7 @@
     background-color: #181817;
     padding: 0 12px 0 12px;
 }
+
 
 .yellow_right {
     font-family: 'Poppins';
@@ -68,4 +69,6 @@
 
 .chose_img {
     padding-top: 27px;
-}
+    }
+
+.
