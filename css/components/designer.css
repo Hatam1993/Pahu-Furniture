@@ -1,0 +1,27 @@
+.designer {
+    height: 980px;
+    width: auto;
+    background: url(../../images/designer-bg.png);
+}
+.designer__title {
+    font-size: 40px;
+    letter-spacing: 4px;
+    line-height: 19px;
+    color: #ffce76;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.designer__img {
+    position: absolute;
+   
+}
+
+.designer__name {   
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #fafafa;
+    font-weight: 600;
+    font-family: "Poppins";
+}
