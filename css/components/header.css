@@ -1,15 +1,17 @@
 
  .icon1 {
      width: 10;
+     margin-left: 40px;
  }
  .icon2 {
      width: 10;
  }
  .icon3 {
      width: 10;
+                
  }
  .header {
-    padding-top: 30px;
+    padding-top: 10px;
     width: 100%;
     z-index: 4;
     background-color: black;
