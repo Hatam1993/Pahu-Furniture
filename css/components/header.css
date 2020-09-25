@@ -13,27 +13,16 @@
     height: 100px;
     z-index: 4;
     background-color: #181817;
-    align-items: center;
     font-family: "Poppins";
 }
 .header__row {
     display: flex;
-    align-items: center;
 }
 .nav__menu {
     display: flex;
     padding: 0;
 }
 
-.nav__menu::before {
-    content: "";
-    background-color: #ffce76;
-    width: 230px;
-    height: 1px;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-}
 
 .nav__item {
     list-style-type: none;
