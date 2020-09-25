@@ -55,6 +55,8 @@
 
 .trends__btn1 {
     color:#749d26;
+    margin-left: 96px;
+    margin-bottom: 500px;
 }
 
 .trends__btn2 {
@@ -65,7 +67,6 @@
 .trends__btn3 {
     color: #352b30;
     margin-left: 55px;
-  
 }
 
 .trends__column {
