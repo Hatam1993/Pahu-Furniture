@@ -26,7 +26,7 @@
 
 .collection_title::before {
     content: "";
-    background-color:#181817;
+    background-color: #181817;
     width: 230px;
     height: 1px;
     position: absolute;
@@ -48,14 +48,16 @@
 .collections_cols {
     margin-top: 76px;
 }
-.chairs{
+
+.chairs {
     width: 100%;
     background-color: white;
-  
+
 }
+
 .chair__item {
-margin-top: auto;
-padding:  0 0 0 25px;
+    margin-top: auto;
+    padding: 0 0 0 25px;
 
 }
 
@@ -87,18 +89,18 @@ padding:  0 0 0 25px;
     margin: 0;
 
 }
-.chairs_img{
+
+.chairs_img {
     max-height: 185px;
     display: block;
     margin: auto;
 }
-.chairs:hover .chairs-yellow   {
+
+.chairs:hover .chairs-yellow {
     background-color: #ffce76;
     transform: scale(1.1);
     cursor: pointer;
     opacity: 0.5;
-    
+
 }
-.chairs:hover .chairs_img{
-    background-color: #ffce76;
-}
+

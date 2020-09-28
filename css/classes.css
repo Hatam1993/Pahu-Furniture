@@ -39,10 +39,12 @@ img {
     text-align: center;
 }
 
+
 .box {
     box-sizing: border-box;
     padding: 15px;
 }
+
 
 .relative {
     position: relative;
